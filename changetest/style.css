@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: rgb(181, 182, 154);
+    color: rgb(51, 58, 65);
+    margin-left: 10%;
+}
+form{
+    left: 100px;
+    position: relative;
+}
+form label{
+    display: block;
+    position: relative;
+    left: 25px;
+    top: 19px;
+}
+form label:hover{
+    transition: 0.2s;
+    color: #fd0d0d;
+    font-weight: bolder;
+}
+section{
+    float: left;
+    width: 45%;
+}
+aside{
+    float: left;
+    width: 45%;
+}
+.input{
+    border-radius: 16px 0px 16px 0px;
+    width: 100%;
+    border-color: red;
+}
+.sa{
+    background-color: rgba(255,255,255,0.4);
+    width: 70%;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.qw{
+    color: red;
+    position: relative;
+    left: 5%;
+    top: 10px;
+}
